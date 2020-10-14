@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculateApp';
+  subText: string;
+  mainText: string;
+
+  constructor() {
+    this.subText = '';
+    this.mainText = '';
+  }
+
+  pressKey(key: string) {
+
+  }
+
+  allClear() {
+    this.subText = '';
+    this.mainText = '';
+  }
+
+  getAnswer() {
+
+  }
+
+
 }
